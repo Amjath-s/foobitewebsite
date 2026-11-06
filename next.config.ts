@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return ["/login", "/signin", "/signup"].map((source) => ({
+      source,
+      destination: "https://app.foobite.com/login",
+      permanent: false,
+    }));
+  },
 };
 
 export default nextConfig;

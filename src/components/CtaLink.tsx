@@ -29,7 +29,12 @@ export function CtaLink({
 }: CtaLinkProps) {
   const cls = `${base} ${styles[variant]} ${className}`;
 
-  if (external || href.startsWith("mailto:") || href.startsWith("tel:")) {
+  if (
+    external ||
+    href.startsWith("https://") ||
+    href.startsWith("mailto:") ||
+    href.startsWith("tel:")
+  ) {
     return (
       <a href={href} className={cls}>
         {children}

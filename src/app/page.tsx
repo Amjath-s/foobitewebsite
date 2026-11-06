@@ -195,7 +195,7 @@ export default function HomePage() {
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3 animate-fade-up animate-delay-3">
-                <CtaLink href="/meal-plans">Explore Meal Plans</CtaLink>
+                <CtaLink href="https://app.foobite.com/login">Explore Meal Plans</CtaLink>
                 <CtaLink href="/how-it-works" variant="secondary">
                   How It Works
                 </CtaLink>
@@ -396,7 +396,7 @@ export default function HomePage() {
             />
           </Reveal>
           <div className="mt-14">
-            <PlanGrid plans={mealPlans} ctaHref="/meal-plans" />
+            <PlanGrid plans={mealPlans} ctaHref="https://app.foobite.com/login" />
           </div>
           <Reveal delay={100}>
             <p className="mx-auto mt-8 max-w-2xl text-center text-sm text-muted">
@@ -489,7 +489,7 @@ export default function HomePage() {
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <CtaLink href="/meal-plans" variant="accent">
+              <CtaLink href="https://app.foobite.com/login" variant="accent">
                 Explore Meal Plans
               </CtaLink>
               <CtaLink href="/how-it-works" variant="ghost">

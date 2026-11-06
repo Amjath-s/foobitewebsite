@@ -84,12 +84,12 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link
-              href="/meal-plans"
+            <a
+              href="https://app.foobite.com/login"
               className="hidden h-[42px] items-center justify-center rounded-full bg-primary px-5 text-[15px] font-semibold text-white transition-colors hover:bg-primary-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:inline-flex"
             >
               Get Started
-            </Link>
+            </a>
 
             <button
               type="button"
@@ -153,13 +153,13 @@ export function Header() {
                 );
               })}
             </ul>
-            <Link
-              href="/meal-plans"
+            <a
+              href="https://app.foobite.com/login"
               onClick={() => setOpen(false)}
               className="mt-4 block rounded-full bg-primary px-4 py-3.5 text-center text-base font-semibold text-white"
             >
               Get Started
-            </Link>
+            </a>
           </nav>
         </div>
       )}

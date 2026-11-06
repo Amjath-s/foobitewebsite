@@ -63,7 +63,7 @@ export default function MealPlansPage() {
       </div>
 
       <div className="mt-12">
-        <PlanGrid plans={mealPlans} ctaHref="/contact" />
+        <PlanGrid plans={mealPlans} ctaHref="https://app.foobite.com/login" />
       </div>
 
       <p className="mt-6 max-w-2xl text-sm leading-relaxed text-muted">
